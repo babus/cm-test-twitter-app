@@ -13,10 +13,13 @@ ___
 4. If a category is recognised from the tweet content, it'll be posted on the `https://twitter.com/babusqb` timeline. 
 5. Check the same in admin. User table is available in `admin/auth/user/` and Tweet Data will be available in `admin/twitter_face/tweetdata/`.
 
+<u>Admin credentials:</u> <br>
+Username: *admin* <br>
+Password: *password*
 ___
 ###Additional Notes###
 
-1) django-allauth is being used for twitter oauth and registration.(https://github.com/pennersr/django-allauth)
-2) django-avatar is being used for avatar support.
-3) python-twitter is being used for posting tweets.
+1. django-allauth is being used for twitter oauth and registration.(https://github.com/pennersr/django-allauth)
+2. django-avatar is being used for avatar support.
+3. python-twitter is being used for posting tweets.
 
